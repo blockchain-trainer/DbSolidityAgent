@@ -8,7 +8,7 @@ This is a very simple (almost trivial) database to smart contract convertor proj
   
   <b>Run (from inside target directory):</b>
   
-  $java -jar dbagent-ri-V01-0.0.1-SNAPSHOT.jar jdbc:mysql://localhost:3306/<schema> <user> <password> <schema>
+  $java -jar dbagent-ri-V01-0.0.1-SNAPSHOT.jar jdbc:mysql://localhost:3306/schema user password schema
   
   The solidity files are created in user.home (look for your home directory in your operating system - you should see a directory "solidity", the contract files are in there. 
   
