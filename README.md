@@ -6,7 +6,7 @@ This is a very simple (almost trivial) database to smart contract convertor proj
   
   $mvn clean install.
   
-  <b>Run:</b>
+  <b>Run (from inside target directory):</b>
   
   $java -jar dbagent-ri-V01-0.0.1-SNAPSHOT.jar jdbc:mysql://localhost:3306/<schema> <user> <password> <schema>
   
